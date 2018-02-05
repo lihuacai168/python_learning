@@ -41,6 +41,9 @@ menus = [ #列表
 #             else:
 #                 print("这个dic字典里面的",list_second)
 #                 recursive_search(list_second)
+
+
+
 def recursive_search(list):
     for dic in list:#第一层遍历列表，返回dic
         # recursive_search(dic)
