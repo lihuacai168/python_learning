@@ -6,12 +6,7 @@ from functools import reduce
 
 
 def prod(L):
-    # for i in L:
-    #     print("inner+%s"%i)
-    # product = 1
-    # for i in L:
-    #     product = product * i
-    # return product
+    # reduce()里面的函数必须能接受两个参数
     return reduce(lambda x,y: x * y, L)
 
 
