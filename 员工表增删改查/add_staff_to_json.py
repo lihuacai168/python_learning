@@ -54,7 +54,6 @@ def add_staff():
         while check_phone(phone):
             phone = input("该号码已经存在，请输入新的号码:")
         # phone=check_phone(phone)
-
         dept = input("请输入员工的部门:")
 
         # 把输入的信息保存在staff_list
@@ -75,5 +74,7 @@ def add_staff():
     # 把stable写入json文件
     f = open("staff.json", mode="w")
     json.dump(staff_table, f)
+    # 关闭文件流
+    f.close()
 
 add_staff()
