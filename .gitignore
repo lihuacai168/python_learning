@@ -1,3 +1,4 @@
 *.abc
 workspace.xml
 .idea/workspace.xml
+/venv/
