@@ -5,6 +5,7 @@
 # @File    : quick_search.py
 # @Software: PyCharm
 
+# 二分法找出有序递增数组,第一个重复元素的索引
 def quick_search(arr,find_word):
     # 数组的开始和最后一个游标
     first = 0
@@ -13,33 +14,31 @@ def quick_search(arr,find_word):
 
     if find_word in arr:
 
-        # 最后一个元素需要判断,因为mid = int((first + last)/2)永远取不到最后一个值
-        if find_word == arr[-1]:
-            print(str(find_word) + " index is: " + str(last))
-
-        else:
             while True:
                     # 取数组的中间值
                     mid = int((first + last)/2)
 
-                    if arr[mid] == find_word:
+                    if arr[mid] == find_word and arr[mid-1] < find_word:
                         print(str(find_word)+" index is: "+str(mid))
                         return mid
 
-                    # 要找的值小于中间值,也就是在左边.即下一次查找时是arr[0:mid]的的区间
-                    elif find_word < arr[mid]:
-                        last = mid
+                    # 要找的值小于中间值,也就是在左边.即下一次查找时是arr[0:mid-1]的的区间
+                    elif find_word <= arr[mid]:
+                        if arr[first] == find_word:
+                            print(str(find_word) + " index is: " + str(first))
+                            return first
+                        last = mid-1
 
-                    # 要找的值大于中间值,也就是在右边.即下一次查找时是arr[mid:last]的的区间
-                    else:
-                        first = mid
+                    # 要找的值大于中间值,也就是在右边.即下一次查找时是arr[mid+1:last]的的区间
+                    elif find_word > arr[mid]:
+                        first = mid+1
 
     else:
         print("not in arr")
 
-# arr是升序,且不重复的数组
-arr = [0,1,2,13,67,100,188]
-quick_search(arr,67)
+# arr是升序,递增的数组.含有重复的值
+arr = [1,1]
+quick_search(arr,1)
 
 
 
