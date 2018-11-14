@@ -3,7 +3,8 @@ import os
 import datetime
 
 # 字典保存有效期和端口dict_valid_day_and_sock 如：dict = {"666":"180"} 666端口的有效期是180天
-dict_valid_day_and_sock ={}
+dict_valid_day_and_sock = {}
+
 
 def test():
     for key in dict_valid_day_and_sock:
@@ -20,6 +21,8 @@ def ban(socks):
 # 666,180表示：666端口的有效期是今天+180天
 
 # 询问用户是否继续
+
+
 def ask(func):
     def inner():
         while True:
@@ -31,6 +34,7 @@ def ask(func):
                 break
     # 装饰器返回只能返回函数名，不能带括号
     return inner
+
 
 @ask
 def add():

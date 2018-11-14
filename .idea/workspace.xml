@@ -69,6 +69,7 @@
       <file leaf-file-name="sock_date.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/定期禁用端口/sock_date.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="380">
               <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
               <folding />
@@ -82,6 +83,10 @@
             <state relative-caret-position="95">
               <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
               <folding />
+=======
+            <state relative-caret-position="110">
+              <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -278,11 +283,19 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+<<<<<<< Updated upstream
   <component name="ProjectFrameBounds">
     <option name="x" value="9" />
     <option name="y" value="24" />
     <option name="width" value="1460" />
     <option name="height" value="828" />
+=======
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-1743" />
+    <option name="y" value="164" />
+    <option name="width" value="1580" />
+    <option name="height" value="829" />
+>>>>>>> Stashed changes
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -300,7 +313,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -317,7 +329,11 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< Updated upstream
       <pane id="Scratches" />
+=======
+      <pane id="Scope" />
+>>>>>>> Stashed changes
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -660,6 +676,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< Updated upstream
     <frame x="9" y="24" width="1460" height="828" extended-state="0" />
     <editor active="true" />
     <layout>
@@ -685,6 +702,37 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+=======
+    <frame x="-1894" y="418" width="1264" height="663" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49046794" visible="true" weight="0.1608" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.512" side_tool="true" visible="true" weight="0.30418944" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.488" weight="0.25414366" />
+      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.86720467" weight="0.285" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.66911227" weight="0.33563536" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24969174" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49743214" weight="0.32833335" />
+      <window_info id="Favorites" order="2" sideWeight="0.50953203" side_tool="true" weight="0.17681585" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4919571" weight="0.43243244" />
+      <window_info anchor="bottom" id="Thumbnails" order="8" sideWeight="0.49753392" weight="0.32876712" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="调试" order="7" sideWeight="0.6501746" weight="0.5068182" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="运行" order="7" sideWeight="0.4266589" visible="true" weight="0.5212121" />
+      <window_info anchor="right" id="R Packages" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="找到" order="7" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3292232" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+>>>>>>> Stashed changes
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1567,6 +1615,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/定期禁用端口/sock_date.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="380">
           <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
           <folding />
@@ -1578,6 +1627,10 @@
         <state relative-caret-position="95">
           <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding />
+=======
+        <state relative-caret-position="110">
+          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
